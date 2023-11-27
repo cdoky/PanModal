@@ -27,6 +27,8 @@ public protocol PanModalPresentable: AnyObject {
      and the pan modal container view.
      */
     var panScrollable: UIScrollView? { get }
+    
+    var panable: Bool { get }
 
     /**
      The offset between the top of the screen and the top of the pan modal container view.
